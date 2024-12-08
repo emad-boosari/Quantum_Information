@@ -1,3 +1,5 @@
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
 # Quantum Teleportation
 Quantum teleportation is a foundational quantum protocol that allows the precise transfer of an unknown quantum state from a sender (Alice) to a receiver (Bob). The resources required for this protocol are:
 
