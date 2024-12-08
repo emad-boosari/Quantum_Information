@@ -32,7 +32,7 @@ $$
 
 Expanding the entangled state $|\Phi^+⟩ $:
 
-$$ |\psi_0⟩ = |\psi⟩_A \Bigg( \frac{|0⟩_A |0⟩_B + |1⟩_A |1⟩_B}{\sqrt{2}} \Bigg) $$
+$$|\psi_0⟩ = |\psi⟩_A \Bigg( \frac{|0⟩_A |0⟩_B + |1⟩_A |1⟩_B}{\sqrt{2}} \Bigg) $$
 
 Substituting $|\psi⟩ = \alpha|0⟩ + \beta|1⟩ $, we get:
 
@@ -42,12 +42,10 @@ $$
 
 Expanding the terms:
 
-\[
-|\psi_0⟩ = \frac{1}{\sqrt{2}} \Bigg[ 
+$$|\psi_0⟩ = \frac{1}{\sqrt{2}} \Bigg[ 
 \alpha |0⟩_A \Big(|0⟩_A |0⟩_B + |1⟩_A |1⟩_B\Big) 
 + \beta |1⟩_A \Big(|0⟩_A |0⟩_B + |1⟩_A |1⟩_B\Big) 
-\Bigg]
-\]
+\Bigg]$$
 
 This prepared state $|\psi_0⟩ $ is the starting point for the teleportation process, containing both the generic state $|\psi⟩ $ and the shared entanglement between Alice and Bob.
 
