@@ -57,11 +57,9 @@ Expanding the terms:
 $$|\psi_1 \rangle = \frac{1}{2} \left[\alpha |00\rangle_A |0\rangle_B + \alpha |01\rangle_A |1\rangle_B + \alpha |10\rangle_A |0\rangle_B + \alpha |11\rangle_A |1\rangle_B + \beta |00\rangle_A |0\rangle_B - \beta |01\rangle_A |1\rangle_B - \beta |10\rangle_A |0\rangle_B + \beta |11\rangle_A |1\rangle_B \right]$$
 
 or more simpler
+$$|\psi_1 \rangle = \frac{1}{2} \left[|00\rangle_A (\alpha |0\rangle_B+\beta |1\rangle_B) + |01\rangle_A (\alpha |1\rangle_B+\beta |0\rangle_B) +|10\rangle_A (\alpha |0\rangle_B - \beta |1\rangle_B) +|11\rangle_A (\alpha |1\rangle_B-\beta |0\rangle_B) \right]$$
 
 This state $|\psi_1 \rangle$ is now prepared for Alice's measurement in the subsequent step of the protocol.
-
-$$|\psi_1 \rangle = \frac{1}{2} \left[|00\rangle_A (\alpha |0\rangle_B+\beta |1\rangle_B) + |01\rangle_A (\alpha |1\rangle_B+\beta |0\rangle_B) +|10\rangle_A (\alpha |0\rangle_B - \beta |1\rangle_B) +|11\rangle_A (\alpha |1\rangle_B-\beta |0\rangle_B) + \right]$$
-
 ## Step 3: Measurment
 
 The Alice's measurement can have four possible states $'00'$, $'01'$, $'10'$, and $'11'$, the following table represent the details of measurement and Bob state
