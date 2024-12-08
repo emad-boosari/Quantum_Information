@@ -66,12 +66,12 @@ $$|\psi_1 \rangle = \frac{1}{2} \left[|00\rangle_A (\alpha |0\rangle_B+\beta |1\
 
 The Alice's measurement can have four possible states $'00'$, $'01'$, $'10'$, and $'11'$, the following table represent the details of measurement and Bob state
 
-| Alice's Result | Bob's State      | **Bob Manipulation** |
+| Alice's Result | Bob's State                    | **Bob Manipulation** |
 |----------------|--------------------------------|-------------------------|
-00               | α|0⟩ + β|1⟩  | \mathbb{I} |
-01               | α|1⟩ + β|0⟩  | X          |
-10               | α|0⟩ - β|1⟩  | Z          |
-11               | α|1⟩ - β|0⟩  | ZX         |
+|00               | α|0⟩ + β|1⟩                     | \mathbb{I} |
+|01               | α|1⟩ + β|0⟩                     | X          |
+|10               | α|0⟩ - β|1⟩                     | Z          |
+|11               | α|1⟩ - β|0⟩                     | ZX         |
 
 
 in the following circuit we can see the final quantum circuit, and also Bob manipulation for reconstructing an exact $|\psi\rangle$.
