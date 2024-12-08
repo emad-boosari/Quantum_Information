@@ -32,9 +32,7 @@ $$
 
 Expanding the entangled state $|\Phi^+⟩ $:
 
-\[
-|\psi_0⟩ = |\psi⟩_A \Bigg( \frac{|0⟩_A |0⟩_B + |1⟩_A |1⟩_B}{\sqrt{2}} \Bigg)
-\]
+$$ |\psi_0⟩ = |\psi⟩_A \Bigg( \frac{|0⟩_A |0⟩_B + |1⟩_A |1⟩_B}{\sqrt{2}} \Bigg) $$
 
 Substituting $|\psi⟩ = \alpha|0⟩ + \beta|1⟩ $, we get:
 
