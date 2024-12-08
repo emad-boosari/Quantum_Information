@@ -54,12 +54,8 @@ $$|\psi_1 \rangle = \alpha \left(\frac{|0\rangle_A + |1\rangle_A}{\sqrt{2}} \rig
 
 Expanding the terms:
 
-$$|\psi_1 \rangle = \frac{1}{2} \left[
-\alpha |0\rangle_A |0\rangle_A |0\rangle_B + \alpha |0\rangle_A |1\rangle_A |1\rangle_B 
-+ \alpha |1\rangle_A |0\rangle_A |0\rangle_B + \alpha |1\rangle_A |1\rangle_A |1\rangle_B + 
-\beta |0\rangle_A |0\rangle_A |0\rangle_B - \beta |0\rangle_A |1\rangle_A |1\rangle_B 
-- \beta |1\rangle_A |0\rangle_A |0\rangle_B + \beta |1\rangle_A |1\rangle_A |1\rangle_B 
-\right]$$
+$$|\psi_1 \rangle = \frac{1}{2} \left[\alpha |0\rangle_A |0\rangle_A |0\rangle_B + \alpha |0\rangle_A |1\rangle_A |1\rangle_B + \alpha |1\rangle_A |0\rangle_A |0\rangle_B + \alpha |1\rangle_A |1\rangle_A |1\rangle_B + 
+\beta |0\rangle_A |0\rangle_A |0\rangle_B - \beta |0\rangle_A |1\rangle_A |1\rangle_B - \beta |1\rangle_A |0\rangle_A |0\rangle_B + \beta |1\rangle_A |1\rangle_A |1\rangle_B \right]$$
 
 This state $|\psi_1 \rangle$ is now prepared for Alice's measurement in the subsequent step of the protocol.
 
