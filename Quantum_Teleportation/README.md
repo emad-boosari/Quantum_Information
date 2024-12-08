@@ -51,22 +51,20 @@ $$|\psi_1 \rangle = (H \otimes \mathbb{I} \otimes \mathbb{I}) \left(\alpha |0\ra
 Applying the Hadamard gate to Alice's qubit:
 
 $$|\psi_1 \rangle = 
-\alpha \Bigg(\frac{|0\rangle_A + |1\rangle_A}{\sqrt{2}} \Bigg) 
-\Bigg(\frac{|0\rangle_A |0\rangle_B + |1\rangle_A |1\rangle_B}{\sqrt{2}} \Bigg)
-+ \beta \Bigg(\frac{|0\rangle_A - |1\rangle_A}{\sqrt{2}} \Bigg)
-\Bigg(\frac{|1\rangle_A |0\rangle_B + |0\rangle_A |1\rangle_B}{\sqrt{2}} \Bigg)$$
+\alpha \left(\frac{|0\rangle_A + |1\rangle_A}{\sqrt{2}} \right) 
+\left(\frac{|0\rangle_A |0\rangle_B + |1\rangle_A |1\rangle_B}{\sqrt{2}} \right)
++ \beta \left(\frac{|0\rangle_A - |1\rangle_A}{\sqrt{2}} \right)
+\left(\frac{|1\rangle_A |0\rangle_B + |0\rangle_A |1\rangle_B}{\sqrt{2}} \right)$$
 
 Expanding the terms:
 
 $$
-|\psi_1 \rangle = \frac{1}{2} \Bigg[
+|\psi_1 \rangle = \frac{1}{2} \left[
 \alpha |0\rangle_A |0\rangle_A |0\rangle_B + \alpha |0\rangle_A |1\rangle_A |1\rangle_B 
 + \alpha |1\rangle_A |0\rangle_A |0\rangle_B + \alpha |1\rangle_A |1\rangle_A |1\rangle_B + 
-$$
-$$
 \beta |0\rangle_A |0\rangle_A |0\rangle_B - \beta |0\rangle_A |1\rangle_A |1\rangle_B 
 - \beta |1\rangle_A |0\rangle_A |0\rangle_B + \beta |1\rangle_A |1\rangle_A |1\rangle_B 
-\Bigg]
+\right]
 $$
 
 This state $ |\psi_1 \rangle $ is now prepared for Alice's measurement in the subsequent step of the protocol.
