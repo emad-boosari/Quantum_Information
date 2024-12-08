@@ -30,9 +30,7 @@ $$|\psi_0⟩ = |\psi⟩_A ( \frac{|0⟩_A |0⟩_B + |1⟩_A |1⟩_B}{\sqrt{2}} )
 
 Substituting $|\psi⟩ = \alpha|0⟩ + \beta|1⟩ $, we get:
 
-$$
-|\psi_0⟩ = \Big(\alpha |0⟩ + \beta |1⟩ \Big)_A \Bigg(\frac{|0⟩_A |0⟩_B + |1⟩_A |1⟩_B}{\sqrt{2}} \Bigg)
-$$
+$$ |\psi_0⟩ = (\alpha |0⟩ + \beta |1⟩ )_A (\frac{|0⟩_A |0⟩_B + |1⟩_A |1⟩_B}{\sqrt{2}} ) $$
 
 Expanding the terms:
 
