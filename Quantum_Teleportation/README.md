@@ -74,7 +74,8 @@ The Alice's measurement can have four possible states $'00'$, $'01'$, $'10'$, an
 
 
 In the following circuit we can see the final quantum circuit, and also Bob manipulation for reconstructing an exact $|\psi\rangle$.
-![Alt text](https://github.com/emad-boosari/Quantum_Information/tree/main/Quantum_Teleportation/Figures/teleportation.png)
 
+
+![teleportation](https://github.com/user-attachments/assets/3ae5a68b-97c1-4ae8-a48f-fa12d4c9347c)
 
 
