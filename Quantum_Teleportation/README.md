@@ -27,7 +27,7 @@ This remarkable process leverages the principles of quantum mechanics, allowing 
 To begin the process of teleporting the state $|\psi⟩$ to Bob, Alice must prepare a composite system that is the tensor product of the generic state $|\psi⟩$ and the shared entangled state $|\Phi^+⟩$. The preparation of the state is as follows:
 
 $$
-|\psi_0⟩ = |\psi⟩_A |\Phi^{+}\rangle_{AB}
+|\psi_0⟩ = |\psi⟩_A |\Phi^+⟩ _{AB}
 $$
 
 Expanding the entangled state $|\Phi^+⟩ $:
