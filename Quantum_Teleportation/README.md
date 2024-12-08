@@ -8,15 +8,11 @@ Quantum teleportation is a foundational quantum protocol that allows the precise
 
 To perform quantum teleportation, Alice and Bob must first establish a shared two-qubit entangled state. For this purpose, I will use the maximally entangled Bell state 
 
-\begin{equation}
-|\Phi^+⟩ = \frac{1}{\sqrt{2}} (|00⟩ + |11⟩).
-\end{equation}
+$$ |\Phi^+⟩ = \frac{1}{\sqrt{2}} (|00⟩ + |11⟩). $$
 
 Once the entangled state is generated, Alice can transmit a generic quantum state 
 
-$$
-|\psi⟩ = \alpha|0⟩ + \beta|1⟩ \quad \text{where } |\alpha|^2 + |\beta|^2 = 1,
-$$
+$$ |\psi⟩ = \alpha|0⟩ + \beta|1⟩ \quad \text{where } |\alpha|^2 + |\beta|^2 = 1, $$
 
 accurately to Bob, even though she does not directly send the qubit carrying $|\psi⟩$.
 
@@ -26,13 +22,11 @@ This remarkable process leverages the principles of quantum mechanics, allowing 
 
 To begin the process of teleporting the state $|\psi⟩$ to Bob, Alice must prepare a composite system that is the tensor product of the generic state $|\psi⟩$ and the shared entangled state $|\Phi^+⟩$. The preparation of the state is as follows:
 
-$$
-|\psi_0⟩ = |\psi⟩_A |\Phi^+⟩ _{AB}
-$$
+$$ |\psi_0⟩ = |\psi⟩_A |\Phi^+⟩ _{AB} $$
 
 Expanding the entangled state $|\Phi^+⟩ $:
 
-$$|\psi_0⟩ = |\psi⟩_A \Bigg( \frac{|0⟩_A |0⟩_B + |1⟩_A |1⟩_B}{\sqrt{2}} \Bigg) $$
+$$|\psi_0⟩ = |\psi⟩_A ( \frac{|0⟩_A |0⟩_B + |1⟩_A |1⟩_B}{\sqrt{2}} ) $$
 
 Substituting $|\psi⟩ = \alpha|0⟩ + \beta|1⟩ $, we get:
 
