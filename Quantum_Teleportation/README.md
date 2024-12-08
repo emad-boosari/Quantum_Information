@@ -99,15 +99,15 @@ This state $ |\psi_1 \rangle $ is now prepared for Alice's measurement in the su
 
 The Alice's measurement can have four possible states $'00'$, $'01'$, $'10'$, and $'11'$, the following table represent the details of measurement and Bob state
 
-| Alice's Result | **Bob's State          **        | **Bob Manipulation** |
-|--------------------|--------------------------------|-------------------------|
-**00**| $α|0⟩ + β|1⟩$  | \mathbb{I}  |
-**01**| $α|1⟩ + β|0⟩$  | $X$         |
-**10**| $α|0⟩ - β|1⟩$  | $Z$         |
-**11**| $α|1⟩ - β|0⟩$  | $ZX$        |
+| Alice's Result | Bob's State      | **Bob Manipulation** |
+|----------------|--------------------------------|-------------------------|
+**00** | $α|0⟩ + β|1⟩$  | \mathbb{I}  |
+**01** | $α|1⟩ + β|0⟩$  | $X$         |
+**10** | $α|0⟩ - β|1⟩$  | $Z$         |
+**11** | $α|1⟩ - β|0⟩$  | $ZX$        |
 
 
-in the following circuit we can see the final quantum circuit, and also Bob manipulation for reconstructing an exact $|\psi\ranlge$.
+in the following circuit we can see the final quantum circuit, and also Bob manipulation for reconstructing an exact $|\psi\rangle$.
 
 
 
