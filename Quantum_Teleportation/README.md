@@ -7,6 +7,7 @@ Quantum teleportation is a foundational quantum protocol that allows the precise
 ## Overview of the Protocol  
 
 To perform quantum teleportation, Alice and Bob must first establish a shared two-qubit entangled state. For this purpose, I will use the maximally entangled Bell state 
+
 $$
 |\Phi^+⟩ = \frac{1}{\sqrt{2}} (|00⟩ + |11⟩).
 $$
