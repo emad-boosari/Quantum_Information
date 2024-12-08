@@ -46,10 +46,7 @@ $$ |\psi_1 \rangle = (H \otimes \mathbb{I} \otimes \mathbb{I}) \, \text{CNOT}(1,
 
 Expanding $|\psi_0⟩$:
 
-$$|\psi_1 \rangle = (H \otimes \mathbb{I} \otimes \mathbb{I}) \Bigg[
-\alpha |0\rangle_A \Bigg(\frac{|0\rangle_A |0\rangle_B + |1\rangle_A |1\rangle_B}{\sqrt{2}} \Bigg) 
-+ \beta |1\rangle_A \Bigg(\frac{|1\rangle_A |0\rangle_B + |0\rangle_A |1\rangle_B}{\sqrt{2}} \Bigg) 
-\Bigg]$$
+$$|\psi_1 \rangle = (H \otimes \mathbb{I} \otimes \mathbb{I}) \left(\alpha |0\rangle_A (\frac{|0\rangle_A |0\rangle_B + |1\rangle_A |1\rangle_B}{\sqrt{2}} ) + \beta |1\rangle_A (\frac{|1\rangle_A |0\rangle_B + |0\rangle_A |1\rangle_B}{\sqrt{2}} )\right)$$
 
 Applying the Hadamard gate to Alice's qubit:
 
