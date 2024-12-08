@@ -50,11 +50,7 @@ $$|\psi_1 \rangle = (H \otimes \mathbb{I} \otimes \mathbb{I}) \left(\alpha |0\ra
 
 Applying the Hadamard gate to Alice's qubit:
 
-$$|\psi_1 \rangle = 
-\alpha \left(\frac{|0\rangle_A + |1\rangle_A}{\sqrt{2}} \right) 
-\left(\frac{|0\rangle_A |0\rangle_B + |1\rangle_A |1\rangle_B}{\sqrt{2}} \right)
-+ \beta \left(\frac{|0\rangle_A - |1\rangle_A}{\sqrt{2}} \right)
-\left(\frac{|1\rangle_A |0\rangle_B + |0\rangle_A |1\rangle_B}{\sqrt{2}} \right)$$
+$$|\psi_1 \rangle = \alpha \left(\frac{|0\rangle_A + |1\rangle_A}{\sqrt{2}} \right) \left(\frac{|0\rangle_A |0\rangle_B + |1\rangle_A |1\rangle_B}{\sqrt{2}} \right)+ \beta \left(\frac{|0\rangle_A - |1\rangle_A}{\sqrt{2}} \right)\left(\frac{|1\rangle_A |0\rangle_B + |0\rangle_A |1\rangle_B}{\sqrt{2}} \right)$$
 
 Expanding the terms:
 
