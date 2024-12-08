@@ -36,34 +36,28 @@ Expanding the terms:
 
 $$|\psi_0⟩ = \frac{1}{\sqrt{2}} (\alpha |0⟩_A (|0⟩_A |0⟩_B + |1⟩_A |1⟩_B) + \beta |1⟩_A (|0⟩_A |0⟩_B + |1⟩_A |1⟩_B))$$
 
-This prepared state $|\psi_0⟩ $ is the starting point for the teleportation process, containing both the generic state $|\psi⟩ $ and the shared entanglement between Alice and Bob.
+This prepared state $|\psi_0⟩$ is the starting point for the teleportation process, containing both the generic state $|\psi⟩$ and the shared entanglement between Alice and Bob.
 
 ## Step 2: Applying CNOT and Hadamard Gates  
 
-After preparing the initial state $ |\psi_0\rangle $, Alice applies a CNOT gate and then a Hadamard gate to her qubits to make the state ready for the final measurement. The operations are as follows:
+After preparing the initial state $|\psi_0⟩$, Alice applies a CNOT gate and then a Hadamard gate to her qubits to make the state ready for the final measurement. The operations are as follows:
 
-$$
-|\psi_1 \rangle = (H \otimes \mathbb{I} \otimes \mathbb{I}) \, \text{CNOT}(1, 2) |\psi_0 \rangle
-$$
+$$ |\psi_1 \rangle = (H \otimes \mathbb{I} \otimes \mathbb{I}) \, \text{CNOT}(1, 2) |\psi_0⟩ $$
 
-Expanding $ |\psi_0\rangle $:
+Expanding $|\psi_0⟩$:
 
-$$
-|\psi_1 \rangle = (H \otimes \mathbb{I} \otimes \mathbb{I}) \Bigg[
+$$|\psi_1 \rangle = (H \otimes \mathbb{I} \otimes \mathbb{I}) \Bigg[
 \alpha |0\rangle_A \Bigg(\frac{|0\rangle_A |0\rangle_B + |1\rangle_A |1\rangle_B}{\sqrt{2}} \Bigg) 
 + \beta |1\rangle_A \Bigg(\frac{|1\rangle_A |0\rangle_B + |0\rangle_A |1\rangle_B}{\sqrt{2}} \Bigg) 
-\Bigg]
-$$
+\Bigg]$$
 
 Applying the Hadamard gate to Alice's qubit:
 
-$$
-|\psi_1 \rangle = 
+$$|\psi_1 \rangle = 
 \alpha \Bigg(\frac{|0\rangle_A + |1\rangle_A}{\sqrt{2}} \Bigg) 
 \Bigg(\frac{|0\rangle_A |0\rangle_B + |1\rangle_A |1\rangle_B}{\sqrt{2}} \Bigg)
 + \beta \Bigg(\frac{|0\rangle_A - |1\rangle_A}{\sqrt{2}} \Bigg)
-\Bigg(\frac{|1\rangle_A |0\rangle_B + |0\rangle_A |1\rangle_B}{\sqrt{2}} \Bigg)
-$$
+\Bigg(\frac{|1\rangle_A |0\rangle_B + |0\rangle_A |1\rangle_B}{\sqrt{2}} \Bigg)$$
 
 Expanding the terms:
 
